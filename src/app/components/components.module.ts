@@ -18,6 +18,7 @@ import { FileInputComponent } from "./file-input/file-input.component";
 import { PictureUploadComponent } from './picture-upload/picture-upload.component';
 import { FixedPluginComponent } from './fixed-plugin/fixed-plugin.component';
 import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   imports: [CommonModule,HttpClientModule, RouterModule, FormsModule, JwBootstrapSwitchNg2Module, NgbModule, DxVectorMapModule,
@@ -32,7 +33,8 @@ import { LoginComponent } from './login/login.component';
     FileInputComponent,
     PictureUploadComponent,
     FixedPluginComponent,
-    LoginComponent
+    LoginComponent,
+    RegisterComponent
   ],
   exports: [
     NavbarComponent,
