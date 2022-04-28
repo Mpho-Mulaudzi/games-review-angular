@@ -19,6 +19,7 @@ import { PictureUploadComponent } from './picture-upload/picture-upload.componen
 import { FixedPluginComponent } from './fixed-plugin/fixed-plugin.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { UserAuthComponent } from './user-auth/user-auth.component';
 
 @NgModule({
   imports: [CommonModule,HttpClientModule, RouterModule, FormsModule, JwBootstrapSwitchNg2Module, NgbModule, DxVectorMapModule,
@@ -34,7 +35,8 @@ import { RegisterComponent } from './register/register.component';
     PictureUploadComponent,
     FixedPluginComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    UserAuthComponent
   ],
   exports: [
     NavbarComponent,
